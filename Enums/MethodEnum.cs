@@ -21,7 +21,11 @@
 			TwoSums,
 			LongestSubstringWithoutRepeatingChar,
 			BestTimeToBuyAndSell,
-			SurroundedRegions
+			SurroundedRegions,
+			TargetSum,
+			MaximalEvents,
+			MinimumDominoRotations,
+			RemoveDuplicatesFromSortedLinkedList
 		}
 	}
 }

@@ -28,6 +28,10 @@ namespace CodingProblems
 				.AddSingleton<IExecution, LongestSubstringWithoutRepeatingChar>()
 				.AddSingleton<IExecution, BestTimeToBuyAndSell>()
 				.AddSingleton<IExecution, SurroundedRegions>()
+				.AddSingleton<IExecution, TargetSum>()
+				.AddSingleton<IExecution, MaximalEvents>()
+				.AddSingleton<IExecution, MinimumDominoRotations>()
+				.AddSingleton<IExecution, RemoveDuplicatesFromSortedLinkedList>()
 				.BuildServiceProvider();
 			var result = serviceProvider.GetService<IEnumerable<IExecution>>();
 			new Executer(result).Run();

@@ -38,6 +38,10 @@ namespace CodingProblems
 				Console.WriteLine("16. Longest Substring Without Repeating Characters");
 				Console.WriteLine("17. Best Time to Buy and Sell Stock");
 				Console.WriteLine("18. Surrounded Regions");
+				Console.WriteLine("19. Target Sum");
+				Console.WriteLine("20. Maximal Events");
+				Console.WriteLine("21. Minimum Domino Rotations For Equal Row");
+				Console.WriteLine("22. Remove Duplicates from Sorted List");
 				Console.WriteLine("Choose Anyone Of these");
 				var item = Console.ReadLine();
 				MethodEnums functionNumber;
