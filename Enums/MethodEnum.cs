@@ -25,7 +25,11 @@
 			TargetSum,
 			MaximalEvents,
 			MinimumDominoRotations,
-			RemoveDuplicatesFromSortedLinkedList
+			RemoveDuplicatesFromSortedLinkedList,
+			ShortestSubStringWithAllAlphabetsInOrder,
+			ChampagneTower,
+			LongestPalindromicSubstring,
+			CountingBits
 		}
 	}
 }

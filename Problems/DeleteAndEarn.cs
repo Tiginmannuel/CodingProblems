@@ -10,7 +10,7 @@ namespace CodingProblems.Problems
 	{
 		public MethodEnums Name => MethodEnums.DeleteAndEarn;
 
-		public void Execute()
+		public void Execute() // LeetCode - 740
 		{
 			Console.WriteLine("You are given an integer array nums. You want to maximize the number of points you get by performing the following operation any number of times." +
 				"Pick any nums[i] and delete it tot earn nums[i] points. Afterwards, you must delete every element equals to nums[i] - 1 and every element equal to nums[i] + 1 " +
@@ -22,14 +22,15 @@ namespace CodingProblems.Problems
 
 		private int Run(int[] nums)
 		{
-			var counts = nums.GroupBy(item => item).ToDictionary(x => x.Key, x => x.Count());
+			var counts = nums.GroupBy(item => item).ToDictionary(x => x.Key, x => x.Sum());
 			var numList = new HashSet<int>(nums).ToArray();
+			Array.Sort(numList);
 
 			int earn1 = 0;
 			int earn2 = 0;
 			for (int i = 0; i < numList.Length; i++)
 			{
-				var curEarn = numList[i] * counts[numList[i]];
+				var curEarn = counts[numList[i]];
 				if (i > 0 && numList[i] == numList[i - 1] + 1)
 				{
 					var temp = earn2;

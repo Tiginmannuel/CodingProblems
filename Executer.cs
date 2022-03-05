@@ -42,6 +42,10 @@ namespace CodingProblems
 				Console.WriteLine("20. Maximal Events");
 				Console.WriteLine("21. Minimum Domino Rotations For Equal Row");
 				Console.WriteLine("22. Remove Duplicates from Sorted List");
+				Console.WriteLine("23. Find shortest substring where all the alphabets are in order.");
+				Console.WriteLine("24. Champagne Tower");
+				Console.WriteLine("25. Longest Palindromic Substring");
+				Console.WriteLine("26. Counting Bits");
 				Console.WriteLine("Choose Anyone Of these");
 				var item = Console.ReadLine();
 				MethodEnums functionNumber;
