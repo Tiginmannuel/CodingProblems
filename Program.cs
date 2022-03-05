@@ -32,6 +32,10 @@ namespace CodingProblems
 				.AddSingleton<IExecution, MaximalEvents>()
 				.AddSingleton<IExecution, MinimumDominoRotations>()
 				.AddSingleton<IExecution, RemoveDuplicatesFromSortedLinkedList>()
+				.AddSingleton<IExecution, ShortestSubStringWithAllAlphabetsInOrder>()
+				.AddSingleton<IExecution, ChampagneTower>()
+				.AddSingleton<IExecution, LongestPalindromicSubstring>()
+				.AddSingleton<IExecution, CountingBits>()
 				.BuildServiceProvider();
 			var result = serviceProvider.GetService<IEnumerable<IExecution>>();
 			new Executer(result).Run();
