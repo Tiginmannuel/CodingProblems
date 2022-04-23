@@ -36,6 +36,11 @@ namespace CodingProblems
 				.AddSingleton<IExecution, ChampagneTower>()
 				.AddSingleton<IExecution, LongestPalindromicSubstring>()
 				.AddSingleton<IExecution, CountingBits>()
+				.AddSingleton<IExecution, KthSmallestElementInBST>()
+				.AddSingleton<IExecution, ZigzagConversion>()
+				.AddSingleton<IExecution, ReverseInteger>()
+				.AddSingleton<IExecution, ConvertBSTtoGreaterTree>()
+				.AddSingleton<IExecution, ContainerWithMostWater>()
 				.BuildServiceProvider();
 			var result = serviceProvider.GetService<IEnumerable<IExecution>>();
 			new Executer(result).Run();

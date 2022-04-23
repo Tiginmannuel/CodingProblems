@@ -29,7 +29,12 @@
 			ShortestSubStringWithAllAlphabetsInOrder,
 			ChampagneTower,
 			LongestPalindromicSubstring,
-			CountingBits
+			CountingBits,
+			KthSmallestElementInBST,
+			ZigzagConversion,
+			ReverseInteger,
+			ConvertBSTtoGreaterTree,
+			ContainerWithMostWater
 		}
 	}
 }

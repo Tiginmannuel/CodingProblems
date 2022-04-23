@@ -46,6 +46,11 @@ namespace CodingProblems
 				Console.WriteLine("24. Champagne Tower");
 				Console.WriteLine("25. Longest Palindromic Substring");
 				Console.WriteLine("26. Counting Bits");
+				Console.WriteLine("27. Kth Smallest Element in a BST");
+				Console.WriteLine("28. Zigzag Conversion");
+				Console.WriteLine("29. Reverse Integer");
+				Console.WriteLine("30. Convert BST to Greater Tree");
+				Console.WriteLine("31. Container With Most Water");
 				Console.WriteLine("Choose Anyone Of these");
 				var item = Console.ReadLine();
 				MethodEnums functionNumber;
